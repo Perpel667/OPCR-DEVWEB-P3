@@ -2,6 +2,8 @@ $colour-primary: #9356dc;
 $colour-secondary: #ff79da;
 $colour-tertiary: #99e2d0;
 $colour-bg: #353535;
+$search-bg: lighten($color-bg, 65%);
+$section-bg: lighten($color-bg, 70%);
 
 $font-primary: "Roboto", sans-serif;
 $font-secondary: "Shrikhand", cursive;
