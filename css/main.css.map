@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "AASA,OAAO,CAAC,sEAAI;AACZ,OAAO,CAAC,oFAAI",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/utils/_variables.scss",
+        "../sass/components/_btn.scss",
+        "../sass/components/_heart.scss",
+        "../sass/layout/_footer.scss",
+        "../sass/layout/_header.scss",
+        "../sass/pages/_hiw.scss",
+        "../sass/pages/_places.scss",
+        "../sass/pages/_searchbar.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
