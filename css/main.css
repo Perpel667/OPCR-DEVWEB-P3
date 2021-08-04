@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14,6 +14,39 @@
 
 .header__logo {
   margin: 1rem;
+}
+
+.search {
+  background-color: #e8e8e8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search__bar {
+  background-color: #dbdbdb;
+  width: 100%;
+  text-align: center;
+}
+
+.search__bar-input {
+  border: none;
+  padding: 1rem;
+  font-family: Roboto, "FontAwesome", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: #dbdbdb;
+  width: 100%;
+  text-align: center;
+  -webkit-box-shadow: inset 0px 3px 4px #c1c0c0;
+          box-shadow: inset 0px 3px 4px #c1c0c0;
 }
 
 *,
@@ -39,6 +72,21 @@ h2 {
 button,
 input {
   font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+}
+
+::-webkit-input-placeholder {
+  color: #5a5a5a;
+}
+
+:-ms-input-placeholder {
+  color: #5a5a5a;
+}
+
+::-ms-input-placeholder {
+  color: #5a5a5a;
+}
+
+::placeholder {
+  color: #5a5a5a;
 }
 /*# sourceMappingURL=main.css.map */

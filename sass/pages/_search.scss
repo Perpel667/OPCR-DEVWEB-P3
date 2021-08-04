@@ -1,0 +1,22 @@
+.search {
+  background-color: $section-bg;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__bar {
+    background-color: $search-bg;
+    width: 100%;
+    text-align: center;
+    &-input {
+      border: none;
+      padding: 1rem;
+      font-family: Roboto, "FontAwesome", sans-serif;
+      font-weight: 500;
+      font-size: 1rem;
+      background-color: $search-bg;
+      width: 100%;
+      text-align: center;
+      box-shadow: inset 0px 3px 4px #c1c0c0;
+    }
+  }
+}
