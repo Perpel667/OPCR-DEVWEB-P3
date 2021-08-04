@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   &__bar {
     background-color: $search-bg;
     width: 100%;
@@ -18,5 +19,12 @@
       text-align: center;
       box-shadow: inset 0px 3px 4px #c1c0c0;
     }
+  }
+  &__title {
+    padding: 2rem 3rem 0.5rem 3rem;
+  }
+  &__txt {
+    font-size: 18px;
+    padding: 0rem 1rem 1rem;
   }
 }

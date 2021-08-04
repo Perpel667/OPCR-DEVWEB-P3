@@ -28,6 +28,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 
 .search__bar {
@@ -47,6 +48,33 @@
   text-align: center;
   -webkit-box-shadow: inset 0px 3px 4px #c1c0c0;
           box-shadow: inset 0px 3px 4px #c1c0c0;
+}
+
+.search__title {
+  padding: 2rem 3rem 0.5rem 3rem;
+}
+
+.search__txt {
+  font-size: 18px;
+  padding: 0rem 1rem 1rem;
+}
+
+.btn {
+  font-size: 18px;
+  border: none;
+  margin-bottom: 2rem;
+  padding: 0.8rem 1rem;
+  color: #fff;
+  border-radius: 2rem;
+  -webkit-box-shadow: 0px 2px 10px 0px #7d7d7d;
+          box-shadow: 0px 2px 10px 0px #7d7d7d;
+  background: linear-gradient(356deg, #9356dc 0%, #9356dc 33%, #ff79da 100%);
+}
+
+.btn:hover {
+  background: linear-gradient(356deg, #a16be0 0%, #a16be0 33%, #ff93e1 100%);
+  -webkit-box-shadow: 0px 2px 10px 0px #525252;
+          box-shadow: 0px 2px 10px 0px #525252;
 }
 
 *,
