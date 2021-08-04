@@ -78,6 +78,67 @@
           box-shadow: 0px 2px 10px 0px #525252;
 }
 
+.hiw {
+  margin: 2rem 1rem;
+}
+
+.hiw__title {
+  margin-bottom: 1rem;
+}
+
+.hiw-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hiw-wrapper-hiwcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f4f4f4;
+  margin: 1rem 0rem 0.5rem 0.7rem;
+  padding: 1.5rem 0rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 4px 15px 0px #c5c4c4;
+          box-shadow: 0px 4px 15px 0px #c5c4c4;
+}
+
+.hiw-wrapper-hiwcard__ico {
+  margin-right: 1rem;
+}
+
+.hiw-wrapper-hiwcard:hover {
+  background-color: #f2eafb;
+}
+
+.hiw-wrapper-hiwcard:hover > .hiw-wrapper-hiwcard__ico {
+  color: #9356dc;
+}
+
+.num-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #a26eda;
+  color: #fff;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+  margin-left: -3vw;
+}
+
 *,
 *::after,
 *::before {

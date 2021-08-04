@@ -1,0 +1,39 @@
+.hiw {
+  margin: 2rem 1rem;
+  &__title {
+    margin-bottom: 1rem;
+  }
+}
+.hiw-wrapper {
+  display: flex;
+  flex-direction: column;
+  &-hiwcard {
+    display: flex;
+    background-color: $hiw-card-bg;
+    margin: 1rem 0rem 0.5rem 0.7rem;
+    padding: 1.5rem 0rem;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 15px 0px #c5c4c4;
+    &__ico {
+      margin-right: 1rem;
+    }
+    &:hover {
+      background-color: lighten($colour-primary, 35%);
+    }
+    &:hover > &__ico {
+      color: $colour-primary;
+    }
+  }
+}
+.num-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a26eda;
+  color: #fff;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+  margin-left: -3vw;
+}
