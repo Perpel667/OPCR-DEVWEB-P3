@@ -139,6 +139,78 @@
   margin-left: -3vw;
 }
 
+.places {
+  background-color: #e8e8e8;
+  margin-top: 3rem;
+  padding: 3rem 1rem;
+}
+
+.places__title {
+  margin-bottom: 1.5rem;
+}
+
+.places-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.places-wrapper-placescard {
+  position: relative;
+  background-color: #fff;
+  border-radius: 2rem 2rem 1rem 1rem;
+  margin-bottom: 1.2rem;
+  -webkit-box-shadow: 0px 4px 15px 0px #c5c4c4;
+          box-shadow: 0px 4px 15px 0px #c5c4c4;
+}
+
+.places-wrapper-placescard__img {
+  width: 100%;
+  max-width: 343px;
+  max-height: 175px;
+  border-radius: 2rem 2rem 0rem 0rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.places-wrapper-placescard__img-txt {
+  position: absolute;
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  background-color: #85dcc7;
+  color: #1b6150;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px 0.5rem;
+  border-radius: 2px;
+}
+
+.places-wrapper-placescard-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem;
+}
+
+.places-wrapper-placescard-content-desc {
+  line-height: 25px;
+}
+
+.fa-heart {
+  font-size: 1.5rem;
+}
+
 *,
 *::after,
 *::before {
