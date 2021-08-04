@@ -1,3 +1,14 @@
 .fa-heart {
   font-size: 1.5rem;
+  color: #9c47fc;
+  display: block;
+  background: -webkit-linear-gradient(
+    356deg,
+    rgba(155, 89, 220, 1) 0%,
+    rgba(167, 127, 216, 1) 39%,
+    rgba(255, 121, 218, 1) 85%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
