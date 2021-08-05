@@ -1,14 +1,55 @@
-.fa-heart {
+.hearts {
+  position: relative;
+  border-radius: 50%;
+  width: auto;
+  &:hover > .heart-1 {
+    opacity: 0;
+    font-weight: 700;
+  }
+  &:hover > .heart-2 {
+    animation: fill 250ms ease-out forwards;
+  }
+}
+.heart-1 {
+  position: absolute;
+  color: #000000;
   font-size: 1.5rem;
-  color: #9c47fc;
   display: block;
   background: -webkit-linear-gradient(
-    356deg,
-    rgba(155, 89, 220, 1) 0%,
-    rgba(167, 127, 216, 1) 39%,
-    rgba(255, 121, 218, 1) 85%
+    238deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 39%,
+    rgba(0, 0, 0, 1) 85%
   );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  opacity: 1;
+}
+
+.heart-2 {
+  font-size: 1.5rem;
+  background: -webkit-linear-gradient(
+    238deg,
+    rgba(155, 89, 220, 1) 0%,
+    rgba(167, 127, 216, 1) 39%,
+    rgba(255, 121, 218, 1) 85%
+  );
+  font-weight: 700;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+}
+
+@keyframes fill {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    font-weight: 700;
+  }
 }
