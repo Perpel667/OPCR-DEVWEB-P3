@@ -1,2 +1,25 @@
 .footer {
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: $colour-bg;
+  &__header {
+    font-family: $font-secondary;
+    font-weight: 300;
+    color: #fff;
+  }
+  &-list {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    &__link {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 400;
+    }
+    &__ico {
+      margin-right: 0.5rem;
+    }
+  }
 }
