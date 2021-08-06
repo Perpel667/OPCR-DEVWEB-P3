@@ -1,0 +1,34 @@
+@import "./utils/variables";
+@import "./layout/header-pages";
+@import "./layout/menus";
+@import "./components/heart";
+@import "./components/btn";
+@import "./layout/footer";
+
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  font-family: $font-primary;
+  box-sizing: border-box;
+}
+h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+button,
+input {
+  font-family: $font-primary;
+}
+::placeholder {
+  color: rgb(90, 90, 90);
+}
+img.top__img {
+  width: 100%;
+}
