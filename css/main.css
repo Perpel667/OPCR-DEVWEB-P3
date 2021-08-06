@@ -363,6 +363,11 @@
   line-height: 25px;
 }
 
+.places-wrapper-placescard__link {
+  text-decoration: none;
+  color: black;
+}
+
 .hearts {
   position: relative;
   border-radius: 50%;
