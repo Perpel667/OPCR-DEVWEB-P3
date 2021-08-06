@@ -22,6 +22,66 @@
   font-size: 1.5rem;
 }
 
+.place {
+  padding: 2rem 1rem;
+  background-color: #e8e8e8;
+  -webkit-transform: translateY(-45px);
+          transform: translateY(-45px);
+  border-radius: 2rem;
+}
+
+.place-title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.place-title-wrapper__txt {
+  font-family: "Shrikhand", cursive;
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.place-menu__title {
+  margin: 1.5rem 0rem 0rem 0rem;
+  font-weight: 300;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.place-menu__underline {
+  width: 15%;
+  border: 2px solid #99e2d0;
+  margin-bottom: 1rem;
+}
+
+.place-menu-card {
+  background-color: #fff;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.place-menu-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .hearts {
   position: relative;
   border-radius: 50%;

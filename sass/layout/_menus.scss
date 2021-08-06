@@ -1,0 +1,39 @@
+.place {
+  padding: 2rem 1rem;
+  background-color: $section-bg;
+  transform: translateY(-45px);
+  border-radius: 2rem;
+  &-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__txt {
+      font-family: $font-secondary;
+      font-size: 1.9rem;
+      font-weight: 500;
+    }
+  }
+  &-menu {
+    &__title {
+      margin: 1.5rem 0rem 0rem 0rem;
+      font-weight: 300;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+    &__underline {
+      width: 15%;
+      border: 2px solid $colour-tertiary;
+      margin-bottom: 1rem;
+    }
+    &-card {
+      background-color: #fff;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+    }
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
