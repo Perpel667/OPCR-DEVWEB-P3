@@ -8,8 +8,9 @@
       margin: 40vh 10vw;
       text-align: center;
       z-index: 1000;
-      opacity: 0;
+      /* opacity: 0; */
       animation: dome 3s;
+      visibility: hidden;
     }
     &__txt {
       width: 100%;
@@ -18,7 +19,8 @@
       position: fixed;
       margin: 55vh 0vh;
       text-align: center;
-      opacity: 0;
+      /* opacity: 0; */
+      visibility: hidden;
       z-index: 999;
       background: -webkit-linear-gradient(
         355deg,
@@ -45,7 +47,8 @@
 }
 @keyframes dome {
   0% {
-    opacity: 1;
+    /* opacity: 1; */
+    visibility: visible;
     transform: rotate(2deg);
   }
   10% {
@@ -62,12 +65,14 @@
   }
   100% {
     transform: translateY(-13vh);
-    opacity: 1;
+    /* opacity: 1; */
+    visibility: visible;
   }
 }
 @keyframes loading-txt {
   0% {
     opacity: 0;
+    visibility: visible;
   }
   60% {
     transform: translateY(-2vh);
@@ -75,5 +80,6 @@
   }
   100% {
     opacity: 1;
+    visibility: visible;
   }
 }
