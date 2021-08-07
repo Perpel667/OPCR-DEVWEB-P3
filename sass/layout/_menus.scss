@@ -23,13 +23,24 @@
     &__underline {
       width: 15%;
       border: 2px solid $colour-tertiary;
-      margin-bottom: 1rem;
     }
     &-card {
       background-color: #fff;
-      padding: 1rem;
+      padding: 12px 15px;
       display: flex;
       justify-content: space-between;
+      box-shadow: 2px 4px 15px 0px #bfbfbf;
+      border-radius: 1rem;
+      margin: 1rem 0rem;
+      &__price {
+        display: flex;
+        align-items: flex-end;
+      }
+      &-content {
+        &__title {
+          margin-bottom: 5px;
+        }
+      }
     }
     &-wrapper {
       display: flex;
