@@ -73,6 +73,18 @@
           box-shadow: 2px 4px 15px 0px #bfbfbf;
   border-radius: 1rem;
   margin: 1rem 0rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.place-menu-card:hover .place-menu-card-content-right {
+  -webkit-animation: check 300ms linear forwards;
+          animation: check 300ms linear forwards;
+}
+
+.place-menu-card:hover .place-menu-card__check-circle {
+  -webkit-animation: check-rotate 600ms;
+          animation: check-rotate 600ms;
 }
 
 .place-menu-card__price {
@@ -84,8 +96,30 @@
           align-items: flex-end;
 }
 
+.place-menu-card__check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 25px;
+  padding: 1rem;
+  margin: -16px -16px -16px 20px;
+  background-color: #99e2d0;
+}
+
 .place-menu-card-content__title {
   margin-bottom: 5px;
+}
+
+.place-menu-card-content-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateX(60px);
+          transform: translateX(60px);
 }
 
 .place-menu-wrapper {
@@ -96,6 +130,50 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@-webkit-keyframes check {
+  0% {
+    -webkit-transform: translateX(60px);
+            transform: translateX(60px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes check {
+  0% {
+    -webkit-transform: translateX(60px);
+            transform: translateX(60px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@-webkit-keyframes check-rotate {
+  0% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes check-rotate {
+  0% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
 }
 
 .hearts {
