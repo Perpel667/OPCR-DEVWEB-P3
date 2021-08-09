@@ -24,7 +24,7 @@
 
 .place {
   padding: 2rem 1rem;
-  background-color: #e8e8e8;
+  background-color: #f6f6f6;
   -webkit-transform: translateY(-45px);
           transform: translateY(-45px);
   border-radius: 2rem;
@@ -56,7 +56,7 @@
 }
 
 .place-menu__underline {
-  width: 15%;
+  width: 12%;
   border: 2px solid #99e2d0;
 }
 
@@ -66,9 +66,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-shadow: 2px 4px 15px 0px #bfbfbf;
           box-shadow: 2px 4px 15px 0px #bfbfbf;
   border-radius: 1rem;
@@ -104,14 +101,26 @@
       -ms-flex-align: center;
           align-items: center;
   color: white;
-  font-size: 25px;
+  font-size: 26px;
   padding: 1rem;
-  margin: -16px -16px -16px 20px;
+  margin: -12px -15px -12px 20px;
   background-color: #99e2d0;
+}
+
+.place-menu-card-content {
+  width: 71%;
 }
 
 .place-menu-card-content__title {
   margin-bottom: 5px;
+  white-space: nowrap;
+}
+
+.place-menu-card-content__txt {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .place-menu-card-content-right {

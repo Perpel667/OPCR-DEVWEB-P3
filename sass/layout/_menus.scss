@@ -21,14 +21,13 @@
       text-transform: uppercase;
     }
     &__underline {
-      width: 15%;
+      width: 12%;
       border: 2px solid $colour-tertiary;
     }
     &-card {
       background-color: #fff;
       padding: 12px 15px;
       display: flex;
-      justify-content: space-between;
       box-shadow: 2px 4px 15px 0px #bfbfbf;
       border-radius: 1rem;
       margin: 1rem 0rem;
@@ -48,14 +47,22 @@
         display: flex;
         align-items: center;
         color: white;
-        font-size: 25px;
+        font-size: 26px;
         padding: 1rem;
-        margin: -16px -16px -16px 20px;
+        margin: -12px -15px -12px 20px;
         background-color: $colour-tertiary;
       }
       &-content {
+        width: 71%;
         &__title {
           margin-bottom: 5px;
+          white-space: nowrap;
+        }
+        &__txt {
+          width: 100%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
         }
         &-right {
           display: flex;
