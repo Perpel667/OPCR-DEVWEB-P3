@@ -1,0 +1,7 @@
+@mixin slide($slide) {
+  @each $num, $values in $slide {
+    &-#{$num} {
+      animation: $values;
+    }
+  }
+}

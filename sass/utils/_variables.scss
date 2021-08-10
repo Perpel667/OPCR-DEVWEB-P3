@@ -8,3 +8,15 @@ $hiw-card-bg: lighten($colour-bg, 75%);
 
 $font-primary: "Roboto", sans-serif;
 $font-secondary: "Shrikhand", cursive;
+
+$slides: (
+  1: (
+    slide 1000ms forwards,
+  ),
+  2: (
+    slide 1000ms 150ms forwards,
+  ),
+  3: (
+    slide 1000ms 300ms forwards,
+  ),
+);
