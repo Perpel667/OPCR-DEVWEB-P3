@@ -12,13 +12,17 @@
           align-items: center;
 }
 
+.header__home {
+  color: black;
+  position: absolute;
+  left: 7vw;
+}
+
 .header__logo {
   margin: 1rem;
 }
 
 .header__ico {
-  position: absolute;
-  left: 5vw;
   font-size: 1.5rem;
 }
 
