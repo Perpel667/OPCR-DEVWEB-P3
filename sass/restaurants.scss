@@ -32,4 +32,6 @@ input {
 }
 img.top__img {
   width: 100%;
+  position: relative;
+  z-index: 29;
 }

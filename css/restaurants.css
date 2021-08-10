@@ -27,11 +27,19 @@
 }
 
 .place {
-  padding: 2rem 1rem;
+  padding: 2rem 1rem 0rem 1rem;
+  margin-top: -3rem;
   background-color: #f6f6f6;
-  -webkit-transform: translateY(-45px);
-          transform: translateY(-45px);
-  border-radius: 2rem;
+  border-radius: 2rem 2rem 0rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 30;
+  position: relative;
 }
 
 .place-title-wrapper {
@@ -164,6 +172,10 @@
 .slide-3 {
   -webkit-animation: slide 1000ms 300ms forwards;
           animation: slide 1000ms 300ms forwards;
+}
+
+.btn {
+  margin: 1.5rem 5rem;
 }
 
 @-webkit-keyframes check {
@@ -401,5 +413,7 @@ input {
 
 img.top__img {
   width: 100%;
+  position: relative;
+  z-index: 29;
 }
 /*# sourceMappingURL=restaurants.css.map */

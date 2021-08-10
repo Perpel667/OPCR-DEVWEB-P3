@@ -1,8 +1,12 @@
 .place {
-  padding: 2rem 1rem;
+  padding: 2rem 1rem 0rem 1rem;
+  margin-top: -3rem;
   background-color: $section-bg;
-  transform: translateY(-45px);
-  border-radius: 2rem;
+  border-radius: 2rem 2rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  z-index: 30;
+  position: relative;
   &-title-wrapper {
     display: flex;
     align-items: center;
@@ -80,6 +84,9 @@
 }
 .slide {
   @include slide($slides);
+}
+.btn {
+  margin: 1.5rem 5rem;
 }
 @keyframes check {
   0% {
