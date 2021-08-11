@@ -7,12 +7,20 @@
     font-family: $font-secondary;
     font-weight: 300;
     color: #fff;
+    @include laptop {
+      text-align: center;
+      font-size: 26px;
+    }
   }
   &-list {
     display: flex;
     flex-direction: column;
     line-height: 1.5rem;
     margin-top: 1rem;
+    @include laptop {
+      flex-direction: row;
+      justify-content: space-around;
+    }
     &__link {
       text-decoration: none;
       color: #fff;

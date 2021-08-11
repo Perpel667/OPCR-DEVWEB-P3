@@ -2,11 +2,21 @@
   margin: 2rem 1rem;
   &__title {
     margin-bottom: 1rem;
+    @include mobile-3 {
+      text-align: center;
+    }
   }
 }
 .hiw-wrapper {
   display: flex;
   flex-direction: column;
+  @include mobile-3 {
+    align-items: center;
+  }
+  @include laptop {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
   &-hiwcard {
     display: flex;
     background-color: $hiw-card-bg;
@@ -14,8 +24,17 @@
     padding: 1.5rem 0rem;
     border-radius: 1rem;
     box-shadow: 0px 4px 15px 0px #c5c4c4;
+    @include mobile-3 {
+      width: 300px;
+    }
+    @include laptop {
+      align-items: center;
+    }
     &__ico {
       margin-right: 1rem;
+      @include laptop {
+        margin-right: 0.5rem;
+      }
     }
     &:hover {
       background-color: lighten($colour-primary, 35%);
@@ -36,4 +55,10 @@
   height: 24px;
   margin-right: 1rem;
   margin-left: -3vw;
+  @include laptop {
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+    margin-left: -1vw;
+  }
 }

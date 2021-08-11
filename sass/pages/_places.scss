@@ -4,22 +4,46 @@
   padding: 3rem 1rem;
   &__title {
     margin-bottom: 1.5rem;
+    @include mobile-3 {
+      text-align: center;
+    }
   }
 }
 .places-wrapper {
   display: flex;
   flex-direction: column;
+  @include mobile-2 {
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
   &-placescard {
     position: relative;
     background-color: #fff;
     border-radius: 2rem 2rem 1rem 1rem;
     margin-bottom: 1.2rem;
     box-shadow: 0px 4px 15px 0px #c5c4c4;
+    @include mobile-2 {
+      width: 450px;
+    }
+    @include laptop {
+      width: 350px;
+    }
+    @include laptop-m {
+      width: 470px;
+    }
+    @include laptop-l {
+      width: 530px;
+    }
+
     &__img {
       width: 100%;
       max-height: 175px;
       border-radius: 2rem 2rem 0rem 0rem;
       object-fit: cover;
+      @include laptop-l {
+        max-height: 220px;
+      }
       &-txt {
         position: absolute;
         position: absolute;
