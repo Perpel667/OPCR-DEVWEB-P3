@@ -29,6 +29,9 @@
     }
     @include laptop {
       align-items: center;
+      max-width: 234px;
+      justify-content: center;
+      position: relative;
     }
     &__ico {
       margin-right: 1rem;
@@ -58,7 +61,10 @@
   @include laptop {
     justify-content: center;
     align-items: center;
-    margin-right: 0.5rem;
-    margin-left: -1vw;
+    margin-right: 1rem;
+    margin-left: 0vw;
+    position: absolute;
+    top: -15px;
+    right: 90px;
   }
 }
