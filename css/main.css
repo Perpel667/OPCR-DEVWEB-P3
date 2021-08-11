@@ -6,10 +6,24 @@
   z-index: 1001;
 }
 
+.loading-elements {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .loading-elements__dome {
   width: 80%;
   position: fixed;
-  margin: 40vh 10vw;
   text-align: center;
   z-index: 1000;
   /* opacity: 0; */
@@ -23,7 +37,6 @@
   font-family: "Shrikhand", cursive;
   font-size: 2.5rem;
   position: fixed;
-  margin: 55vh 0vh;
   text-align: center;
   /* opacity: 0; */
   visibility: hidden;
