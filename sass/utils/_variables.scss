@@ -22,6 +22,10 @@ $slides: (
 );
 
 $breakpoints: (
+  mobile-1: 320px,
+  mobile-2: 375px,
   tablet: 530px,
   laptop: 768px,
+  laptop-m: 1024px,
+  laptop-l: 1440px,
 );

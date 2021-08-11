@@ -16,6 +16,16 @@
       /* opacity: 0; */
       animation: dome 3s;
       visibility: hidden;
+
+      @include tablet {
+        width: 60%;
+      }
+      @include laptop {
+        width: 50%;
+      }
+      @include laptop-m {
+        width: 40%;
+      }
     }
     &__txt {
       width: 100%;
@@ -37,6 +47,27 @@
       -webkit-text-fill-color: transparent;
       filter: drop-shadow(2px 4px 6px #a77fd8);
       animation: loading-txt 3s;
+
+      @include mobile-1 {
+        font-size: 2rem;
+        margin-top: 5vh;
+      }
+      @include mobile-2 {
+        font-size: 2.5rem;
+        margin-top: 7vh;
+      }
+      @include tablet {
+        font-size: 2.8rem;
+        margin-top: 15vh;
+      }
+      @include laptop {
+        font-size: 3.5rem;
+        margin-top: 20vh;
+      }
+      @include laptop-m {
+        font-size: 4rem;
+        margin-top: 25vh;
+      }
     }
   }
 }
