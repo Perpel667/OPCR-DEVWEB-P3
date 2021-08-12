@@ -34,4 +34,14 @@ img.top__img {
   width: 100%;
   position: relative;
   z-index: 29;
+  object-fit: cover;
+  @include laptop {
+    height: 36vh;
+  }
+  @include laptop-m {
+    height: 48vh;
+  }
+  @include laptop-l {
+    height: 59vh;
+  }
 }

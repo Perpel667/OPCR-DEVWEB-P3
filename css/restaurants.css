@@ -463,5 +463,25 @@ img.top__img {
   width: 100%;
   position: relative;
   z-index: 29;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  img.top__img {
+    height: 36vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  img.top__img {
+    height: 48vh;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  img.top__img {
+    height: 59vh;
+  }
 }
 /*# sourceMappingURL=restaurants.css.map */
