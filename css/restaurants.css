@@ -73,7 +73,7 @@
 }
 
 .place-menu__underline {
-  width: 12%;
+  width: 42px;
   border: 2px solid #99e2d0;
 }
 
@@ -126,12 +126,19 @@
 }
 
 .place-menu-card-content {
-  width: 71%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .place-menu-card-content__title {
   margin-bottom: 5px;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .place-menu-card-content__txt {
@@ -145,8 +152,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-transform: translateX(60px);
-          transform: translateX(60px);
+  margin-right: -4rem;
 }
 
 .place-menu-wrapper {
@@ -180,23 +186,19 @@
 
 @-webkit-keyframes check {
   0% {
-    -webkit-transform: translateX(60px);
-            transform: translateX(60px);
+    margin-right: -4rem;
   }
   100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    margin-right: 0rem;
   }
 }
 
 @keyframes check {
   0% {
-    -webkit-transform: translateX(60px);
-            transform: translateX(60px);
+    margin-right: -4rem;
   }
   100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    margin-right: 0rem;
   }
 }
 

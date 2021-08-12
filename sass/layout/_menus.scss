@@ -26,7 +26,7 @@
       text-transform: uppercase;
     }
     &__underline {
-      width: 12%;
+      width: 42px;
       border: 2px solid $colour-tertiary;
     }
     &-card {
@@ -59,10 +59,15 @@
         background-color: $colour-tertiary;
       }
       &-content {
-        width: 71%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        flex: 1;
         &__title {
           margin-bottom: 5px;
           white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
         }
         &__txt {
           width: 100%;
@@ -72,7 +77,7 @@
         }
         &-right {
           display: flex;
-          transform: translateX(60px);
+          margin-right: -4rem;
         }
       }
     }
@@ -90,10 +95,10 @@
 }
 @keyframes check {
   0% {
-    transform: translateX(60px);
+    margin-right: -4rem;
   }
   100% {
-    transform: translateX(0px);
+    margin-right: 0rem;
   }
 }
 @keyframes check-rotate {
