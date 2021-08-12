@@ -35,6 +35,7 @@ img.top__img {
   position: relative;
   z-index: 29;
   object-fit: cover;
+  height: 40vh;
   @include laptop {
     height: 36vh;
   }

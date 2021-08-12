@@ -196,6 +196,11 @@
           animation: slide 1000ms 300ms forwards;
 }
 
+.slide-4 {
+  -webkit-animation: slide 1000ms 450ms forwards;
+          animation: slide 1000ms 450ms forwards;
+}
+
 .btn {
   margin: 1.5rem;
 }
@@ -465,6 +470,7 @@ img.top__img {
   z-index: 29;
   -o-object-fit: cover;
      object-fit: cover;
+  height: 40vh;
 }
 
 @media screen and (min-width: 768px) {
