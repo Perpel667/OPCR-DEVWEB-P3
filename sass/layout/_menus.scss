@@ -19,6 +19,10 @@
   }
   &-menu {
     animation: slide 1000ms forwards;
+    @include laptop {
+      display: flex;
+      justify-content: space-around;
+    }
     &__title {
       margin: 1.5rem 0rem 0rem 0rem;
       font-weight: 300;
@@ -39,6 +43,9 @@
       overflow: hidden;
       cursor: pointer;
       opacity: 0;
+      @include laptop {
+        width: 31vw;
+      }
       &:hover &-content-right {
         animation: check 300ms linear forwards;
       }

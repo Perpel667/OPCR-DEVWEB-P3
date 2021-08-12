@@ -65,6 +65,16 @@
           animation: slide 1000ms forwards;
 }
 
+@media screen and (min-width: 768px) {
+  .place-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
 .place-menu__title {
   margin: 1.5rem 0rem 0rem 0rem;
   font-weight: 300;
@@ -90,6 +100,12 @@
   overflow: hidden;
   cursor: pointer;
   opacity: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .place-menu-card {
+    width: 31vw;
+  }
 }
 
 .place-menu-card:hover .place-menu-card-content-right {
