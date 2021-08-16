@@ -37,6 +37,7 @@ img.top__img {
   object-fit: cover;
   height: 40vh;
   @include laptop {
+    object-position: center 58%;
     height: 36vh;
   }
   @include laptop-m {

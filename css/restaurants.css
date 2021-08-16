@@ -475,6 +475,8 @@ img.top__img {
 
 @media screen and (min-width: 768px) {
   img.top__img {
+    -o-object-position: center 58%;
+       object-position: center 58%;
     height: 36vh;
   }
 }
