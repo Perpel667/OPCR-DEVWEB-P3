@@ -34,6 +34,7 @@
     }
     @include laptop-l {
       width: 540px;
+      flex-basis: 40%;
     }
 
     &__img {
