@@ -1,6 +1,6 @@
 # OpenClassRooms - Projet 3 Ohmyfood 🍲
 
-**Lien**: https://perpel667.github.io/OliveiraLucas_3_02082021/  
+**Lien**🔗: https://perpel667.github.io/OliveiraLucas_3_02082021/  
 🕰 **Temps écoulé** : 14 jours 🕰
 
 ## Ressources
