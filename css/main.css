@@ -105,6 +105,13 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .loading-elements__txt {
+    font-size: 4rem;
+    margin-top: 30vh;
+  }
+}
+
 @-webkit-keyframes loading-bg {
   from {
     -webkit-filter: blur(5px);
