@@ -47,7 +47,8 @@
         width: 31vw;
       }
       &:hover &-content-right {
-        animation: check 300ms linear forwards;
+        /*animation: check 300ms linear forwards;*/
+        margin-right: 0rem;
       }
       &:hover &__check-circle {
         animation: check-rotate 600ms;
@@ -85,6 +86,7 @@
         &-right {
           display: flex;
           margin-right: -4rem;
+          transition: margin-right 300ms linear;
         }
       }
     }

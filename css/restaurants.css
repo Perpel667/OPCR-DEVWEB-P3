@@ -109,8 +109,8 @@
 }
 
 .place-menu-card:hover .place-menu-card-content-right {
-  -webkit-animation: check 300ms linear forwards;
-          animation: check 300ms linear forwards;
+  /*animation: check 300ms linear forwards;*/
+  margin-right: 0rem;
 }
 
 .place-menu-card:hover .place-menu-card__check-circle {
@@ -169,6 +169,8 @@
   display: -ms-flexbox;
   display: flex;
   margin-right: -4rem;
+  -webkit-transition: margin-right 300ms linear;
+  transition: margin-right 300ms linear;
 }
 
 .place-menu-wrapper {
